@@ -21,7 +21,7 @@ namespace T2L4Zadanie
             char gender = char.Parse(Console.ReadLine());
 
             Console.Write("Pesel: ");
-            int pesel = int.Parse(Console.ReadLine());
+            long pesel = long.Parse(Console.ReadLine());
 
             Console.Write("Numer pracownika: ");
             int idEmployee = int.Parse(Console.ReadLine());
@@ -66,7 +66,7 @@ namespace T2L4Zadanie
             surname = Console.ReadLine();
 
             Console.Write("Numer telefonu: ");
-            int phoneNumber = int.Parse(Console.ReadLine());
+            string phoneNumber = Console.ReadLine();
 
             Console.Write("Adres email: ");
             string email = Console.ReadLine();
